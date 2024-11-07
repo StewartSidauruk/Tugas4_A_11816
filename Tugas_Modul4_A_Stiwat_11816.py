@@ -43,7 +43,7 @@ uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["cs
 
 if uploaded_file is not None:
     input_data = pd.read_csv(uploaded_file)
-    st.markdown("<h1 style='text-align: center; '>Unsupervised Learning - YYYYY</h1>", unsafe_allow_html=True) #YYYYY diisi der
+    st.markdown("<h1 style='text-align: center; '>Unsupervised Learning - 11816</h1>", unsafe_allow_html=True) #YYYYY diisi der
     st.dataframe(input_data)
 
     
